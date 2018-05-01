@@ -29,7 +29,6 @@
 		public function calc(){ 
 			$this->total = $this->amount * $this->price;
 			echo " {$this->total}";
-			return $this->total;
 		}
 
 	}
