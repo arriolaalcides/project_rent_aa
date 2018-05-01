@@ -30,7 +30,6 @@
 			$subtotal2 = $subtotal * $this->discount_family;
 			$this->total = $subtotal - $subtotal2; 
 			echo " {$this->total}";
-			return $this->total;
 		}
 		
 	}
